@@ -295,7 +295,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="libspeex.def">
+    <None Include="..\win32\libspeex.def">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
