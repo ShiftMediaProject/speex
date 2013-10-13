@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libspeex", "libspeex.vcxproj", "{564B2F86-5CDC-4D58-B869-5E8394CC3298}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "speex", "speex.vcxproj", "{564B2F86-5CDC-4D58-B869-5E8394CC3298}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
