@@ -197,3 +197,6 @@ src/speexdec
 src/speexenc
 stamp-*
 patches
+
+#Ensure files required by SMC msvc builds are included
+!SMC/*.h
