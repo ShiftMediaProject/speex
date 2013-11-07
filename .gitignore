@@ -197,6 +197,8 @@ src/speexdec
 src/speexenc
 stamp-*
 patches
+compile
+speexdsp.pc
 
 #Ensure files required by SMC msvc builds are included
 !SMC/*.h
