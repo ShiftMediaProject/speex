@@ -287,7 +287,7 @@ AC_DEFINE([_BUILD_SPEEX], [], [Defined only when Speex itself is build built])
 AC_OUTPUT([Makefile libspeex/Makefile src/Makefile doc/Makefile Speex.spec
            include/Makefile include/speex/Makefile speex.pc speexdsp.pc
            win32/Makefile win32/libspeex/Makefile win32/speexenc/Makefile
-           win32/speexdec/Makefile symbian/Makefile 
+           win32/speexdec/Makefile symbian/Makefile
            win32/VS2003/Makefile
            win32/VS2003/tests/Makefile
            win32/VS2003/libspeex/Makefile
