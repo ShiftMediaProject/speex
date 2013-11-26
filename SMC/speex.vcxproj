@@ -171,6 +171,9 @@
     </Lib>
     <PostBuildEvent>
       <Command>mkdir $(OutputPath)\include
+if exist $(OutDir)\include\speex (
+rd /s /q $(OutDir)\include\speex
+)
 mkdir $(OutputPath)\include\speex
 copy ..\include\speex\*.h $(OutputPath)\include\speex
 mkdir $(OutputPath)\licenses
@@ -208,6 +211,9 @@ del ..\include\speex\speex_config_types.h
     </Lib>
     <PostBuildEvent>
       <Command>mkdir $(OutputPath)\include
+if exist $(OutDir)\include\speex (
+rd /s /q $(OutDir)\include\speex
+)
 mkdir $(OutputPath)\include\speex
 copy ..\include\speex\*.h $(OutputPath)\include\speex
 mkdir $(OutputPath)\licenses
@@ -246,6 +252,9 @@ del ..\include\speex\speex_config_types.h
     </Link>
     <PostBuildEvent>
       <Command>mkdir $(OutputPath)\include
+if exist $(OutDir)\include\speex (
+rd /s /q $(OutDir)\include\speex
+)
 mkdir $(OutputPath)\include\speex
 copy ..\include\speex\*.h $(OutputPath)\include\speex
 mkdir $(OutputPath)\licenses
@@ -284,6 +293,9 @@ del ..\include\speex\speex_config_types.h
     </Link>
     <PostBuildEvent>
       <Command>mkdir $(OutputPath)\include
+if exist $(OutDir)\include\speex (
+rd /s /q $(OutDir)\include\speex
+)
 mkdir $(OutputPath)\include\speex
 copy ..\include\speex\*.h $(OutputPath)\include\speex
 mkdir $(OutputPath)\licenses
@@ -333,6 +345,9 @@ del ..\include\speex\speex_config_types.h
     </Lib>
     <PostBuildEvent>
       <Command>mkdir $(OutputPath)\include
+if exist $(OutDir)\include\speex (
+rd /s /q $(OutDir)\include\speex
+)
 mkdir $(OutputPath)\include\speex
 copy ..\include\speex\*.h $(OutputPath)\include\speex
 mkdir $(OutputPath)\licenses
@@ -382,6 +397,9 @@ del ..\include\speex\speex_config_types.h
     </Lib>
     <PostBuildEvent>
       <Command>mkdir $(OutputPath)\include
+if exist $(OutDir)\include\speex (
+rd /s /q $(OutDir)\include\speex
+)
 mkdir $(OutputPath)\include\speex
 copy ..\include\speex\*.h $(OutputPath)\include\speex
 mkdir $(OutputPath)\licenses
@@ -432,6 +450,9 @@ del ..\include\speex\speex_config_types.h
     </Link>
     <PostBuildEvent>
       <Command>mkdir $(OutputPath)\include
+if exist $(OutDir)\include\speex (
+rd /s /q $(OutDir)\include\speex
+)
 mkdir $(OutputPath)\include\speex
 copy ..\include\speex\*.h $(OutputPath)\include\speex
 mkdir $(OutputPath)\licenses
@@ -482,6 +503,9 @@ del ..\include\speex\speex_config_types.h
     </Link>
     <PostBuildEvent>
       <Command>mkdir $(OutputPath)\include
+if exist $(OutDir)\include\speex (
+rd /s /q $(OutDir)\include\speex
+)
 mkdir $(OutputPath)\include\speex
 copy ..\include\speex\*.h $(OutputPath)\include\speex
 mkdir $(OutputPath)\licenses
