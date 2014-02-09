@@ -554,14 +554,12 @@ cd $(ProjectDir)
     <ClCompile Include="..\libspeex\exc_5_64_table.c" />
     <ClCompile Include="..\libspeex\exc_8_128_table.c" />
     <ClCompile Include="..\libspeex\fftwrap.c" />
-    <ClCompile Include="..\libspeex\filterbank.c" />
     <ClCompile Include="..\libspeex\filters.c" />
     <ClCompile Include="..\libspeex\gain_table.c" />
     <ClCompile Include="..\libspeex\gain_table_lbr.c" />
     <ClCompile Include="..\libspeex\hexc_10_32_table.c" />
     <ClCompile Include="..\libspeex\hexc_table.c" />
     <ClCompile Include="..\libspeex\high_lsp_tables.c" />
-    <ClCompile Include="..\libspeex\jitter.c" />
     <ClCompile Include="..\libspeex\kiss_fft.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -586,11 +584,9 @@ cd $(ProjectDir)
     <ClCompile Include="..\libspeex\lsp.c" />
     <ClCompile Include="..\libspeex\lsp_tables_nb.c" />
     <ClCompile Include="..\libspeex\ltp.c" />
-    <ClCompile Include="..\libspeex\mdf.c" />
     <ClCompile Include="..\libspeex\modes.c" />
     <ClCompile Include="..\libspeex\modes_wb.c" />
     <ClCompile Include="..\libspeex\nb_celp.c" />
-    <ClCompile Include="..\libspeex\preprocess.c" />
     <ClCompile Include="..\libspeex\quant_lsp.c" />
     <ClCompile Include="..\libspeex\sb_celp.c" />
     <ClCompile Include="..\libspeex\smallft.c" />
@@ -606,11 +602,7 @@ cd $(ProjectDir)
     <ClInclude Include="..\include\speex\speex.h" />
     <ClInclude Include="..\include\speex\speex_bits.h" />
     <ClInclude Include="..\include\speex\speex_callbacks.h" />
-    <ClInclude Include="..\include\speex\speex_echo.h" />
     <ClInclude Include="..\include\speex\speex_header.h" />
-    <ClInclude Include="..\include\speex\speex_jitter.h" />
-    <ClInclude Include="..\include\speex\speex_preprocess.h" />
-    <ClInclude Include="..\include\speex\speex_resampler.h" />
     <ClInclude Include="..\include\speex\speex_stereo.h" />
     <ClInclude Include="..\include\speex\speex_types.h" />
     <ClInclude Include="..\libspeex\arch.h" />
@@ -620,7 +612,6 @@ cd $(ProjectDir)
     <ClInclude Include="..\libspeex\cb_search_bfin.h" />
     <ClInclude Include="..\libspeex\cb_search_sse.h" />
     <ClInclude Include="..\libspeex\fftwrap.h" />
-    <ClInclude Include="..\libspeex\filterbank.h" />
     <ClInclude Include="..\libspeex\filters.h" />
     <ClInclude Include="..\libspeex\filters_arm4.h" />
     <ClInclude Include="..\libspeex\filters_bfin.h" />
@@ -644,7 +635,6 @@ cd $(ProjectDir)
     <ClInclude Include="..\libspeex\modes.h" />
     <ClInclude Include="..\libspeex\nb_celp.h" />
     <ClInclude Include="..\libspeex\os_support.h" />
-    <ClInclude Include="..\libspeex\pseudofloat.h" />
     <ClInclude Include="..\libspeex\quant_lsp.h" />
     <ClInclude Include="..\libspeex\quant_lsp_bfin.h" />
     <ClInclude Include="..\libspeex\sb_celp.h" />

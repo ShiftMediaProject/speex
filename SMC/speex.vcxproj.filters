@@ -48,9 +48,6 @@
     <ClCompile Include="..\libspeex\fftwrap.c">
       <Filter>Source Files\libspeex</Filter>
     </ClCompile>
-    <ClCompile Include="..\libspeex\filterbank.c">
-      <Filter>Source Files\libspeex</Filter>
-    </ClCompile>
     <ClCompile Include="..\libspeex\filters.c">
       <Filter>Source Files\libspeex</Filter>
     </ClCompile>
@@ -67,9 +64,6 @@
       <Filter>Source Files\libspeex</Filter>
     </ClCompile>
     <ClCompile Include="..\libspeex\high_lsp_tables.c">
-      <Filter>Source Files\libspeex</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libspeex\jitter.c">
       <Filter>Source Files\libspeex</Filter>
     </ClCompile>
     <ClCompile Include="..\libspeex\kiss_fft.c">
@@ -90,9 +84,6 @@
     <ClCompile Include="..\libspeex\ltp.c">
       <Filter>Source Files\libspeex</Filter>
     </ClCompile>
-    <ClCompile Include="..\libspeex\mdf.c">
-      <Filter>Source Files\libspeex</Filter>
-    </ClCompile>
     <ClCompile Include="..\libspeex\modes.c">
       <Filter>Source Files\libspeex</Filter>
     </ClCompile>
@@ -100,9 +91,6 @@
       <Filter>Source Files\libspeex</Filter>
     </ClCompile>
     <ClCompile Include="..\libspeex\nb_celp.c">
-      <Filter>Source Files\libspeex</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libspeex\preprocess.c">
       <Filter>Source Files\libspeex</Filter>
     </ClCompile>
     <ClCompile Include="..\libspeex\quant_lsp.c">
@@ -143,15 +131,6 @@
     <ClInclude Include="..\include\speex\speex_header.h">
       <Filter>Header Files\speex</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\speex\speex_jitter.h">
-      <Filter>Header Files\speex</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\speex\speex_preprocess.h">
-      <Filter>Header Files\speex</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\speex\speex_resampler.h">
-      <Filter>Header Files\speex</Filter>
-    </ClInclude>
     <ClInclude Include="..\include\speex\speex_stereo.h">
       <Filter>Header Files\speex</Filter>
     </ClInclude>
@@ -165,9 +144,6 @@
       <Filter>Header Files\speex</Filter>
     </ClInclude>
     <ClInclude Include="..\include\speex\speex_callbacks.h">
-      <Filter>Header Files\speex</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\speex\speex_echo.h">
       <Filter>Header Files\speex</Filter>
     </ClInclude>
     <ClInclude Include="..\libspeex\arch.h">
@@ -189,9 +165,6 @@
       <Filter>Header Files\libspeex</Filter>
     </ClInclude>
     <ClInclude Include="..\libspeex\fftwrap.h">
-      <Filter>Header Files\libspeex</Filter>
-    </ClInclude>
-    <ClInclude Include="..\libspeex\filterbank.h">
       <Filter>Header Files\libspeex</Filter>
     </ClInclude>
     <ClInclude Include="..\libspeex\filters.h">
@@ -261,9 +234,6 @@
       <Filter>Header Files\libspeex</Filter>
     </ClInclude>
     <ClInclude Include="..\libspeex\os_support.h">
-      <Filter>Header Files\libspeex</Filter>
-    </ClInclude>
-    <ClInclude Include="..\libspeex\pseudofloat.h">
       <Filter>Header Files\libspeex</Filter>
     </ClInclude>
     <ClInclude Include="..\libspeex\quant_lsp.h">
