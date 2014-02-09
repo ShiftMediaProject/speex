@@ -309,8 +309,7 @@ AC_SUBST([SIZE32])
 AC_SUBST([USIZE32])
 
 
-AC_CONFIG_FILES([
-           Makefile libspeex/Makefile src/Makefile doc/Makefile Speex.spec
+AC_CONFIG_FILES([ Makefile libspeex/Makefile src/Makefile doc/Makefile Speex.spec
            include/Makefile include/speex/Makefile speex.pc
            win32/Makefile win32/libspeex/Makefile win32/speexenc/Makefile
            win32/speexdec/Makefile symbian/Makefile
