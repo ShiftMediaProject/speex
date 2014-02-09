@@ -36,8 +36,8 @@
 #endif
 
 #include "arch.h"
-#include "../include/speex/speex_header.h"
-#include "../include/speex/speex.h"
+#include "speex/speex_header.h"
+#include "speex/speex.h"
 #include "os_support.h"
 
 #ifndef NULL
@@ -147,20 +147,22 @@ EXPORT SpeexHeader *speex_packet_to_header(char *packet, int size)
    int i;
    SpeexHeader *le_header;
    const char *h = "Speex   ";
-   for (i=0;i<8;i++)
-      if (packet[i]!=h[i])
-      {
-         speex_notify("This doesn't look like a Speex file");
-         return NULL;
-      }
-   
+
    /*FIXME: Do we allow larger headers?*/
    if (size < (int)sizeof(SpeexHeader))
    {
       speex_notify("Speex header too small");
       return NULL;
    }
-   
+
+
+   for (i=0;i<8;i++)
+      if (packet[i]!=h[i])
+      {
+         speex_notify("This doesn't look like a Speex file");
+         return NULL;
+      }
+
    le_header = (SpeexHeader*)speex_alloc(sizeof(SpeexHeader));
    
    SPEEX_COPY(le_header, (SpeexHeader*)packet, 1);
