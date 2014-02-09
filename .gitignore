@@ -201,3 +201,5 @@ speexdsp.pc
 
 #Ensure files required by SMC msvc builds are included
 !SMC/*.h
+
+m4/*
