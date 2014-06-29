@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.20827.3
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "speex", "speex.vcxproj", "{564B2F86-5CDC-4D58-B869-5E8394CC3298}"
 EndProject
@@ -15,6 +15,8 @@ Global
 		Release|x64 = Release|x64
 		ReleaseDLL|Win32 = ReleaseDLL|Win32
 		ReleaseDLL|x64 = ReleaseDLL|x64
+		ReleaseLTO|Win32 = ReleaseLTO|Win32
+		ReleaseLTO|x64 = ReleaseLTO|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{564B2F86-5CDC-4D58-B869-5E8394CC3298}.Debug|Win32.ActiveCfg = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{564B2F86-5CDC-4D58-B869-5E8394CC3298}.ReleaseDLL|Win32.Build.0 = ReleaseDLL|Win32
 		{564B2F86-5CDC-4D58-B869-5E8394CC3298}.ReleaseDLL|x64.ActiveCfg = ReleaseDLL|x64
 		{564B2F86-5CDC-4D58-B869-5E8394CC3298}.ReleaseDLL|x64.Build.0 = ReleaseDLL|x64
+		{564B2F86-5CDC-4D58-B869-5E8394CC3298}.ReleaseLTO|Win32.ActiveCfg = ReleaseLTO|Win32
+		{564B2F86-5CDC-4D58-B869-5E8394CC3298}.ReleaseLTO|Win32.Build.0 = ReleaseLTO|Win32
+		{564B2F86-5CDC-4D58-B869-5E8394CC3298}.ReleaseLTO|x64.ActiveCfg = ReleaseLTO|x64
+		{564B2F86-5CDC-4D58-B869-5E8394CC3298}.ReleaseLTO|x64.Build.0 = ReleaseLTO|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
