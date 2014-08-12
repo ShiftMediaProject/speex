@@ -84,7 +84,7 @@ has_sse=yes
 has_sse=no
 ]
 )
-AC_MSG_RESULT($has_sse)  
+AC_MSG_RESULT($has_sse)
 
 SAVE_CFLAGS="$CFLAGS"
 CFLAGS="$CFLAGS -fvisibility=hidden"
@@ -108,9 +108,7 @@ CFLAGS="$SAVE_CFLAGS"
 AC_MSG_RESULT($has_visibility)
 
 AC_CHECK_HEADERS(sys/soundcard.h sys/audioio.h)
-
-XIPH_PATH_OGG([src="src"], [src=""])
-AC_SUBST(src)
+PKG_HAVE_WITH_MODULES([OGG], [ogg])
 
 LT_LIB_M
 
@@ -224,7 +222,7 @@ AS_CASE([$FFT],
  ],
  [gpl-fftw3], [
   AC_DEFINE([USE_GPL_FFTW3], [], [Use FFTW3 for FFT])
-  PKG_CHECK_MODULES(FFT, fftw3f)
+  PKG_CHECK_MODULES([FFT], [fftw3f])
  ],
  [proprietary-intel-mkl], [
   AC_DEFINE([USE_INTEL_MKL], [], [Use Intel Math Kernel Library for FFT])
@@ -334,7 +332,7 @@ AC_CONFIG_FILES([ Makefile libspeex/Makefile src/Makefile doc/Makefile Speex.spe
            win32/VS2008/tests/Makefile
            win32/VS2008/libspeex/Makefile
            win32/VS2008/speexenc/Makefile
-           include/speex/speex_config_types.h ti/Makefile 
+           include/speex/speex_config_types.h ti/Makefile
 	   ti/speex_C54_test/Makefile ti/speex_C55_test/Makefile
 	   ti/speex_C64_test/Makefile
 ])
@@ -342,12 +340,5 @@ AC_CONFIG_FILES([ Makefile libspeex/Makefile src/Makefile doc/Makefile Speex.spe
 AC_CONFIG_HEADERS([config.h])
 
 AC_OUTPUT
-
-
-if test "x$src" = "x"; then 
-echo "**IMPORTANT**"
-echo "You don't seem to have the development package for libogg (libogg-devel) installed. Only the Speex library (libspeex) will be built (no encoder/decoder executable)"
-echo "You can download libogg from http://downloads.xiph.org/releases/ogg/"
-fi
 
 echo "Type \"make; make install\" to compile and install Speex";
