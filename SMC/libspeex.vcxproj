@@ -44,8 +44,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{564B2F86-5CDC-4D58-B869-5E8394CC3298}</ProjectGuid>
-    <RootNamespace>speex</RootNamespace>
-    <ProjectName>speex</ProjectName>
+    <RootNamespace>libspeex</RootNamespace>
+    <ProjectName>libspeex</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
