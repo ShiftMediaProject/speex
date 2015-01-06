@@ -797,7 +797,6 @@ cd $(ProjectDir)
     <ClInclude Include="..\libspeex\vq_arm4.h" />
     <ClInclude Include="..\libspeex\vq_bfin.h" />
     <ClInclude Include="..\libspeex\vq_sse.h" />
-    <ClInclude Include="config.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\win32\libspeex.def" />

@@ -125,9 +125,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="config.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\include\speex\speex_header.h">
       <Filter>Header Files\speex</Filter>
     </ClInclude>
