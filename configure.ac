@@ -326,7 +326,8 @@ AS_IF([test "$ac_cv_header_stdint_h" = "yes"],    [INCLUDE_STDINT="#include <std
 AC_SUBST([INCLUDE_STDINT])
 
 
-AC_CONFIG_FILES([ Makefile libspeex/Makefile src/Makefile doc/Makefile Speex.spec
+AC_CONFIG_FILES([
+           Makefile libspeex/Makefile src/Makefile doc/Makefile Speex.spec
            include/Makefile include/speex/Makefile speex.pc
            win32/Makefile win32/libspeex/Makefile win32/speexenc/Makefile
            win32/speexdec/Makefile symbian/Makefile

@@ -20,7 +20,7 @@ if BUILD_BINARIES
 SUBDIRS += src
 endif
 
-DIST_SUBDIRS = libspeex include
+DIST_SUBDIRS = libspeex include src doc win32 symbian ti
 
 rpm: dist
 	rpmbuild -ta ${PACKAGE}-${VERSION}.tar.gz

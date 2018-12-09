@@ -43,6 +43,3 @@ src/speexdec
 src/speexenc
 stamp-*
 patches
-
-m4/*
-!m4/pkg.m4
