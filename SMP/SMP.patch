@@ -1,0 +1,17 @@
+diff --git a/win32/libspeex.def b/win32/libspeex.def
+index e5f815f7..02e55252 100644
+--- a/win32/libspeex.def
++++ b/win32/libspeex.def
+@@ -1,4 +1,3 @@
+-LIBRARY libspeex
+ EXPORTS
+ 
+ 
+@@ -61,6 +60,7 @@ speex_std_vbr_quality_request_handler
+ speex_init_header
+ speex_header_to_packet
+ speex_packet_to_header
++speex_header_free
+ 
+ ;
+ ;	speex_stereo.h
