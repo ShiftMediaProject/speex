@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{630acfaa-307c-4c39-ba30-6e3dd3fc7ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2c1dcf2b-4f03-4ba0-998e-770bef608203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{cfbf51fb-8db7-41a1-bf13-73877fe17d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\speex">
+      <UniqueIdentifier>{06f89607-042f-44c3-a6f3-fdf46d072d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libspeex">
+      <UniqueIdentifier>{c56ce1e0-ed95-4a0b-86bf-0404ddaee163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libspeex">
+      <UniqueIdentifier>{17aadac2-579c-4941-bdbe-4fb96d5e9a5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libspeex\bits.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\cb_search.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\exc_10_16_table.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\exc_10_32_table.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\exc_20_32_table.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\exc_5_256_table.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\exc_5_64_table.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\exc_8_128_table.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\fftwrap.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\filters.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\gain_table.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\gain_table_lbr.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\hexc_10_32_table.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\hexc_table.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\high_lsp_tables.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\kiss_fft.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\kiss_fftr.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\lpc.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\lsp.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\lsp_tables_nb.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\ltp.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\modes.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\modes_wb.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\nb_celp.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\quant_lsp.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\sb_celp.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\smallft.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\speex.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\speex_callbacks.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\speex_header.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\stereo.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\vbr.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\vq.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libspeex\window.c">
+      <Filter>Source Files\libspeex</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\speex\speex_header.h">
+      <Filter>Header Files\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\speex\speex_stereo.h">
+      <Filter>Header Files\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\speex\speex_types.h">
+      <Filter>Header Files\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\speex\speex.h">
+      <Filter>Header Files\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\speex\speex_bits.h">
+      <Filter>Header Files\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\speex\speex_callbacks.h">
+      <Filter>Header Files\speex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\arch.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\bfin.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\cb_search.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\cb_search_arm4.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\cb_search_bfin.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\cb_search_sse.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\fftwrap.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\filters.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\filters_arm4.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\filters_bfin.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\filters_sse.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\fixed_arm4.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\fixed_arm5e.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\fixed_bfin.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\fixed_debug.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\fixed_generic.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\kiss_fft.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\kiss_fftr.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\lpc.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\lpc_bfin.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\lsp.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\lsp_bfin.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\ltp.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\ltp_arm4.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\ltp_bfin.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\ltp_sse.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\math_approx.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\modes.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\nb_celp.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\os_support.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\quant_lsp.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\quant_lsp_bfin.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\sb_celp.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\smallft.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\stack_alloc.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\vbr.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\vorbis_psy.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\vq.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\vq_arm4.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\vq_bfin.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libspeex\vq_sse.h">
+      <Filter>Header Files\libspeex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\win32\libspeex.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
